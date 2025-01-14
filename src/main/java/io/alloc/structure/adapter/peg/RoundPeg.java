@@ -1,4 +1,4 @@
-package io.alloc.structure.adapter.ex1;
+package io.alloc.structure.adapter.peg;
 
 public class RoundPeg {
 

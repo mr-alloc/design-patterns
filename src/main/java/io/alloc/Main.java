@@ -1,9 +1,8 @@
 package io.alloc;
 
-import io.alloc.structure.adapter.ex1.RoundHole;
-import io.alloc.structure.adapter.ex1.RoundPeg;
-import io.alloc.structure.adapter.ex1.SquarePeg;
-import io.alloc.structure.adapter.ex1.SquarePegAdapter;
+import io.alloc.structure.adapter.peg.RoundHole;
+import io.alloc.structure.adapter.peg.SquarePeg;
+import io.alloc.structure.adapter.peg.SquarePegAdapter;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
