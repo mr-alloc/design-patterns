@@ -1,5 +1,7 @@
 package io.alloc;
 
+import io.alloc.behavior.visitor.filesystem.FileSystemUseCase;
+import io.alloc.behavior.visitor.shape.ShapeUseCase;
 import io.alloc.structure.adapter.peg.RoundHole;
 import io.alloc.structure.adapter.peg.SquarePeg;
 import io.alloc.structure.adapter.peg.SquarePegAdapter;
@@ -10,6 +12,6 @@ import io.alloc.structure.bridge.remote.RemoteUseCase;
 public class Main {
     public static void main(String[] args) {
 
-        RemoteUseCase.run();
+        ShapeUseCase.run();
     }
 }
